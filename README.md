@@ -1,13 +1,12 @@
 # Single-Cycle-MIPS-CPU
 ## Design
-Environment : ModelSim
-
-A implementation of a 32-bit single cycle MIPS processor in Verilog. This version of the MIPS single-cycle processor can execute the following instructions:
+A implementation of single cycle MIPS processor in Verilog. This version of the MIPS single-cycle processor can execute the following instructions:
 *  R Type : ```nop```,```add```,```sub```,```and```,```or```,```xor```,```nor```,```slt```,```sll```,```srl```,```jr```,```jarl```
 *  I Type : ```addi```,```andi```,```slti```,```beq```,```bne```,```lw```,```lh```,```sw```,```sh```
 *  J Typr ; ```j```,```jal```
 
-##Test MIPS Instructions
+Environment : ModelSim
+## Test MIPS Instructions
 ```MIPS
 00000000  //nop
 00000000  //nop
