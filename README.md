@@ -1,11 +1,13 @@
 # Single-Cycle-MIPS-CPU
 ## Design
 A implementation of single cycle MIPS processor in Verilog. This version of the MIPS single-cycle processor can execute the following instructions:
-*  R Type : ```nop```,```add```,```sub```,```and```,```or```,```xor```,```nor```,```slt```,```sll```,```srl```,```jr```,```jarl```
-*  I Type : ```addi```,```andi```,```slti```,```beq```,```bne```,```lw```,```lh```,```sw```,```sh```
-*  J Typr ; ```j```,```jal```
+*  R Type : ```nop```, ```add```, ```sub```, ```and```, ```or```, ```xor```, ```nor```, ```slt```, ```sll```, ```srl```, ```jr```, ```jarl```
+*  I Type : ```addi```, ```andi```, ```slti```, ```beq```, ```bne```, ```lw```, ```lh```, ```sw```, ```sh```
+*  J Typr ; ```j```, ```jal```
 
 Environment : ModelSim
+## DapaPath
+![image](https://github.com/vonchuang/Single-Cycle-MIPS-CPU/blob/master/img/Single-Cycle-MIPS-CPU-DataPath.PNG)
 ## Test MIPS Instructions
 ```MIPS
 00000000  //nop
