@@ -7,7 +7,7 @@ A implementation of single cycle MIPS processor in Verilog. This version of the 
 
 Environment : ModelSim
 ## DapaPath
-![image](http://imgur.com/a/HjdQ3)
+![image](https://github.com/vonchuang/Single-Cycle-MIPS-CPU/blob/master/img/Single-Cycle-MIPS-CPU-DataPath.PNG)
 ## Test MIPS Instructions
 ```MIPS
 00000000  //nop
